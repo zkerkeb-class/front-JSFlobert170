@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "sparkfit",
+    "slug": "sparkfit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "",
+    "scheme": "sparkfit",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.sparkfit"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.sparkfit",
+      "permissions": []
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": ""
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "YOUR_EAS_PROJECT_ID"
+      }
+    }
+  }
+}
